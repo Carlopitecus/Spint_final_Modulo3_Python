@@ -37,7 +37,7 @@ def completar_datos():
         while len(cliente["telefono"]) != 8:
             cliente["telefono"] = input("Ingrese un número de telefono,para " + cliente["cuenta_usuario"] +  " debe contener 8 digitos: ")
 
-    system("cls") 
+    
     print("nombre: " + cliente["nombre"])
     print("Apellido: " + cliente["apellido"])
     print("Cuenta de Usuario: " + cliente["cuenta_usuario"])
